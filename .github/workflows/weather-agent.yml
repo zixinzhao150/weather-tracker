@@ -1,0 +1,6 @@
+name: Weather Agent
+
+on:
+  schedule:
+    - cron: '0 7,12,17,22 * * *'
+  workflow_dispatch:
